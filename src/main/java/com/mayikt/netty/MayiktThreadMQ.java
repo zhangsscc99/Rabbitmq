@@ -9,7 +9,7 @@ import java.util.concurrent.LinkedBlockingDeque;
  * @Author 蚂蚁课堂余胜军 QQ644064779 www.mayikt.com
  * @Version V1.0
  **/
-public class MayiktThreadMQ {
+public class    MayiktThreadMQ {
 
     private static LinkedBlockingDeque<JSONObject> msgs = new LinkedBlockingDeque<JSONObject>();
 
