@@ -25,6 +25,7 @@ public class ProducerDirect {
         channel.basicPublish(EXCHANGE_NAME, "sms", null, msg.getBytes());
         channel.close();
         connection.close();
+        //mq Connection
     }
 
 }
