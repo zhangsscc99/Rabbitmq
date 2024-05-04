@@ -22,7 +22,7 @@ public class ProducerDirect {
         // 通道关联交换机
         channel.exchangeDeclare(EXCHANGE_NAME, "direct", true);
         String msg = "每特教育6666";
-        channel.basicPublish(EXCHANGE_NAME, "email", null, msg.getBytes());
+        channel.basicPublish(EXCHANGE_NAME, "sms", null, msg.getBytes());
         channel.close();
         connection.close();
     }
